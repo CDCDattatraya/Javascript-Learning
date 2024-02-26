@@ -1,0 +1,217 @@
+//Introduction of JS
+
+**Data Types**
+    - `string`
+    - `number`
+    - `boolean`
+    - `null`
+    - `undefined`
+    - `symbol`
+    - `bigint`
+
+#Practice 1:
+
+const foo = 1;
+let bar = foo;
+bar = 9;
+console.log(foo, bar); // => 1, 9
+
+
+console.log("Hello world !!!!");
+console.log(23456*246);
+console.log("I am learning Javascript....");
+
+//Run the program on console
+
+var x=10; //Global variable...
+x=x+3;
+console.log(x);
+console.log("Datatype of x is :" + ( typeof x ));
+
+
+
+const z=10; // Throught the program value is not changed
+
+{
+let y=100;
+console.log("the y value inside block is "+y);
+}
+console.log("the x value is "+x);
+
+
+// Program 01 
+var x=20;
+var y=332;
+var z=x+y;
+document.write(x+"+"+y+"="+z);
+document.write("<br>");
+document.write(typeof z);
+
+
+// Program 02 [ WAP to reverse the numbers from 100 to 10 with diff 2 ]
+
+var x;
+x=100;
+while(x!=8)
+{
+ document.write(x+"<br>");
+ x=x-2;
+}
+
+// Same program using do while 
+
+var x;
+x=100;
+do
+{
+ document.write(x+"<br>");
+ x=x-2;
+}
+while(x!=8);
+
+
+
+// Same program using for loop
+
+for(var x=100;x!=8;x=x-2)
+{
+        document.write("<h1>"+ x +"<br>"); // Here + is used to concate to each other
+}
+
+
+// Program 03 [WAP to write table of 23]
+
+for(var x=1;x!=11;x++)
+{
+        document.write("<h1>"+ x*23 +"<br>");// Here + is used to concate to each other
+}
+
+// Program 04
+const time = new Date().getHours();
+let greeting;
+if (time < 10) {
+  greeting = "Good morning";
+} else if (time < 20) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+document.getElementById("demo").innerHTML = greeting;
+
+// Program 05
+
+https://encouraging-wanderer-c02.notion.site/React-Redux-d4b566580e274aa1ba8adb71d0e564ce
+https://encouraging-wanderer-c02.notion.site/API-Calling-in-Redux-0e6c82a39b3d4f90984564186866c368?pvs=74
+
+
+
+
+//2D Array Concept
+//2 D Array emp[1][2] => [row no.] [column no.]
+var emp= [
+        ["Name","Age","Gender","Salary"],
+        ["Ram",23,"Male",45000],
+        ["Chetan",23,"Male",47000],
+        ["Sham",23,"Male",46000],
+        ["Mohan",23,"Male",35000]
+];
+
+document.write(emp.length + "<br>")
+
+for(var r=0;r<=4;r++)// This loop for row
+{
+        for(var c=0;c<=4;c++)// This is loop for column
+        {
+                document.write("  "+emp[r][c]);
+                
+
+        }
+        document.write("<br>");
+}
+
+
+
+//OOps Concept
+
+1.Class : Set variable and functions
+Car( Features/Properties : color,engine,seats,AC )
+
+A]Functions/Methods : 
+sum()
+{ 
+        z=x+y;
+        return z;
+}
+
+B]Properties(Variable) : let x; let y; let z;
+
+
+
+2.Object : TaTa,Honda city 
+
+
+class A
+{
+        show1(x,y,z)
+        {
+                z=x+y;
+                document.write(z+"<br>");
+
+        }
+
+        show2(x,y,z)
+        {
+                z=x-y;
+                document.write(z+"<br>");
+
+        }
+
+        show3(x,y,z)
+        {
+                z=x/y;
+                document.write(z+"<br>");
+
+        }
+
+        show4(x,y,z)
+        {
+                z=x*y;
+                document.write(z+"<br>");
+
+        }
+
+}
+let a1 = new A();
+a1.show1(20,30);
+a1.show2(20,30);
+a1.show3(20,30);
+a1.show4(20,30);
+
+
+
+
+function hello()
+{
+ var uname=document.getElementById("uname").value;
+ if(uname=="")
+ {
+ document.getElementById("err").innerHTML="*please Enter Username !";
+ return false;
+ }
+ if(uname.length<4)
+ {
+ document.getElementById("err").innerHTML="*Length must be in between 4 to 8";
+ return false; 
+ }
+ if(uname.length>8)
+ {
+ document.getElementById("err").innerHTML="Length must be in between 4 to 8";
+ return false; 
+ }
+ var pattern= /^[a-zA-Z]/;
+ if(!uname.match(pattern))
+ {
+ document.getElementById("err").innerHTML="*Enter only Char";
+ return false; 
+ }
+}
