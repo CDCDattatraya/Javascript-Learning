@@ -40,6 +40,7 @@ console.log("the x value is "+x);
 
 
 // Program 01 
+
 var x=20;
 var y=332;
 var z=x+y;
@@ -87,6 +88,7 @@ for(var x=1;x!=11;x++)
 }
 
 // Program 04
+
 const time = new Date().getHours();
 let greeting;
 if (time < 10) {

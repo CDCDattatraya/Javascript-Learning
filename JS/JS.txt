@@ -1,0 +1,37 @@
+**S1 : Introduction to JS**
+
+- JS is client side scripting lang.
+- It is used to capture user actionson a web page.
+- It gives us flexibility to edit HTML elements after they have been loaded by browser.
+- JS is loosely typed lang. (can define any type of value without defining its datatype)
+
+#To link JS file 
+<script type="text/javascript" src="M1A.js"></script>
+
+**S2 : Writing JS progra**
+
+- Spck Editor for mobile
+
+**Defining/Declaring a variable
+
+	let 
+	=>Newly introduced in 2015
+	=>It has a block level scope.
+	=>We can't declare same variable twice in program.
+	=>Variable needs to be initialized
+
+	var
+	=>Old way of declaring variable.
+	=>It has global level scope.
+	=>We can declare same variable twice in program.
+	=>No need to initialize the variable.
+
+	const
+	=>It is used to declare a constant variable whose value cannot be changed.
+	=>
+
+
+
+
+ 
+
