@@ -5,7 +5,7 @@ function greet(name) {
     }
     
     // Function expression
-    const greet = function(name) {
+    const say = function(name) {
         return `Hello, ${name}!`;
     };
     
