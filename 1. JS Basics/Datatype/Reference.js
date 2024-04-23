@@ -1,7 +1,7 @@
 
 // Reference data types
 const product = {
-        title:"U turn shirts",
+        title:"U turn casual shirt",
         size:"L",
         price: 379,
         offer: 5,
@@ -9,9 +9,9 @@ const product = {
 
 } // Object is collection of values in { key: 'value' } pairs. 
 
-product[title] = "CAMPHEOUR shirts";
+
 console.log(product.title);
-console.log(product[price]);
+console.log(product.price);
 
 let arr = [1, 2, 3]; // Array
 function greet() { console.log('Hello!'); } // Function
