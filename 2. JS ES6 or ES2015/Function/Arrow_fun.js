@@ -1,8 +1,8 @@
-// Arrow function
-let bolobhaiArrow = (name) => {
+// Arrow function 
+let bolbhai = (name) => {
         return `Hello, ${name}!`;
     };
-    console.log(bolobhaiArrow('Bhawa')); 
+    console.log(bolbhai('datta said')); 
     // Output: 'Hello, Bhawa!'
 
 // Shortened arrow function

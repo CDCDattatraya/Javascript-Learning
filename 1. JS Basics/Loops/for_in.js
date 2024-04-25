@@ -6,5 +6,5 @@ let student1 = {
 }
 // for in loop is used for JS Objects.
 for(let e in student1){
-        console.log(e,"born in",student1[e]);
+        console.log(e,"born in",student1[e]);// e = keys of student and student[e]=values of that key
 }
