@@ -8,7 +8,7 @@ Understanding JavaScript basics
 2. Data types
 3. Operators
 4. Conditionals
-5. Short Conditionals: &&, ||, Ternary Operator
+5. Loops
 
 ## B. [JS ES6/ES2015](https://github.com/CDCDattatraya/Javascript-Learning/tree/main/JS%20ES6%20or%20ES2015)
 
