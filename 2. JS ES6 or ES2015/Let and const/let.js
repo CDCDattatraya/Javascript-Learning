@@ -1,4 +1,4 @@
-var b=0
+var b=0; // var : can be redeclare and updated 
 if(b==0){
         
         let a = "Consistency"; // by using let we can not access variable a outside the block. 
