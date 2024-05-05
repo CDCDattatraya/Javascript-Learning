@@ -16,8 +16,8 @@ console.log(c);
 
 /*
 
-Block is defined by using { }. It is also called a compound statement in JavaScript.
+Block is defined by using { }. 
+It is also called a compound statement in JavaScript.
 Block is used to combine multiple JavaScript statements into a group where JavaScript expect it as a statement.
-
-Block scope means all the variables can be accessed through out the block only.
+Block scope means all the variables can be accessed in the block only.
 */

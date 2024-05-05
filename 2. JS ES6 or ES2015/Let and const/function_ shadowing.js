@@ -3,6 +3,7 @@
 var a = 10;
 
 function d(){
+  // all variables having function level scope only
   var a = 5;
   let b = 7;
   const c = 16;
@@ -12,7 +13,9 @@ function d(){
   console.log(c);
 }
 
-d();
+
+
 console.log(a);
+
 
 
