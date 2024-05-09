@@ -4,4 +4,4 @@ const obj = {
                 lastname: "Mundhe",
         };
 const obj2 = { ...obj };
-        console.log(obj2);
+console.log(obj2);
