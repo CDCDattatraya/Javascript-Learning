@@ -1,3 +1,5 @@
 let name = 'Datta';
 let age = 23;
-let person = { name, age };
+let person = { name, age }; 
+
+console.log(person);
