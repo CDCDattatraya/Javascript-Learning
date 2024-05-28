@@ -1,4 +1,4 @@
-// String Templates or Template Strings or Template Literals
+// String Templates or Template Strings or Template Literals : It is string enclosed by backtick(``)
 
 // multiline strings
 let quote = `Template Strings use back-ticks 

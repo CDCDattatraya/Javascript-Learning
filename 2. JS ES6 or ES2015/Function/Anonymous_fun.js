@@ -1,15 +1,15 @@
 //anonymous function have not any name. stored in variable
 
-let compare = function (a,b){
-        if (a>b){
+let compare = function (a, b) {
+        if (a > b) {
                 return a;
         }
-        else{
+        else {
                 return b;
         }
 
 };
 
-let a = compare(12345,2345);//
+let a = compare(12345, 2345);//
 
 console.log(a);
