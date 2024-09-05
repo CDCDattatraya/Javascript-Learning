@@ -2,6 +2,7 @@
 let a = ["HTML", "CSS", "JS", "PYTHON", "DBMS"];
 a[5] = "DJANGO"; // ADDING NEW ELEMENT IN ARRAY AT INDEX 5
 a[4] = "BOOTSTRAP"; // EDITING ELEMENT AT INDEX -1
+console.log(a);
 for (let element_index in a) {
         console.log(element_index + " : " + a[element_index]); // 'for of loop' PRINT ELEMENT_INDEX OF ARRAY 1 BY 1
 }
